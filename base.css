@@ -4,6 +4,7 @@
 :root{
     --colorPrimary: #F1CDB3;
     --colorLight: #fafafa ;
+    --colorDark: #545454;
 }
 
 *{
@@ -159,4 +160,74 @@ margin-right: 40px;
     line-height: 24px;
     font-weight: 400;
     font-family: 'Arimo', sans-serif;
+}
+
+
+/*----------Section_2-------------------------------*/
+
+.section_2{
+
+height: 100%;
+background-color: #f6f6f6;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+
+.section2_header h3{
+
+    width: 30vw;
+    text-align: center;
+    font-weight: 400;
+    color: #545454;
+    font-size: 35px;
+    font-family: 'Tinos', serif;
+    line-height: 45.5px;
+    margin-top: 80px;
+    
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.pets_card{
+    margin: 60px 45px 212px 45px;
+    
+    width: 21vw;
+    height: 33vw;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pets_card .petName{
+    color: var(--colorDark);
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Tinos', serif;
+    margin: 30px 0 30px 0;
+}
+
+.button1{
+    width: 187px;
+    height: 52px;
+    background-color: transparent;
+    border: var(--colorPrimary) 2px solid;
+    border-radius: 100px;
+    color: #292929;
+    font-size: 17px;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 30px;
+
 }
