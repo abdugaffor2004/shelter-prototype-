@@ -173,6 +173,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+
 }
 
 
@@ -183,7 +184,7 @@ align-items: center;
     text-align: center;
     font-weight: 400;
     color: #545454;
-    font-size: 35px;
+    font-size: 3vw;
     font-family: 'Tinos', serif;
     line-height: 45.5px;
     margin-top: 80px;
@@ -198,36 +199,69 @@ align-items: center;
 
 
 .pets_card{
-    margin: 60px 45px 212px 45px;
-    
+    margin: 60px 45px 60px 45px;
     width: 21vw;
     height: 33vw;
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.cardImg{
+    width: 21vw;
+    height: 21vw;
 }
 
 
 .pets_card .petName{
     color: var(--colorDark);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: 'Tinos', serif;
     margin: 30px 0 30px 0;
 }
 
 .button1{
-    width: 187px;
-    height: 52px;
+    width: 15vw;
+    height: 4vw;
     background-color: transparent;
     border: var(--colorPrimary) 2px solid;
     border-radius: 100px;
     color: #292929;
-    font-size: 17px;
+    font-size: 1.5vw;
     font-family: 'Tinos', serif;
     font-weight: 400;
     cursor: pointer;
     margin-bottom: 30px;
 
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: 300px;
+}
+
+.button_prev{
+    top: 300px; 
+    right: 550px ;
+    margin-left: 40px ; 
+}
+
+
+.button_next{
+    bottom: 470px; 
+    left: 550px ; 
+    margin-right: 40px;
+}
+
+.section2_button{
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
