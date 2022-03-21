@@ -289,7 +289,7 @@ align-items: center;
     width: 308px;
     font-size: 35px;
     font-family: 'Tinos', serif ;
-    color: #545454;
+    color: var(--colorDark);
     font-weight: 400;
     display: flex;
     justify-content: center;
@@ -302,7 +302,7 @@ align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 60px;
-    color: #545454;
+    color: var(--colorDark);
     font-size: 20px;
     font-family: 'Tinos', serif;
 }
@@ -312,7 +312,7 @@ align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 60px 0 100px 0;
-    color: #545454;
+    color: var(--colorDark);
     font-size: 20px;
     font-family: 'Tinos', serif;
     
@@ -331,17 +331,72 @@ align-items: center;
 
 .section_4{
     display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    font-family: 'Tinos', serif;
+    flex-wrap: wrap;
 }
 
 .section4Img{
-    border: red 1px solid;
     height: 100%;
-    width: 50%;
+    width: 43%;
+    margin-top: 91px;
+    margin-bottom: 110px;
+
 }
 
+
 .section4Content{
-    border: green solid 1px;
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    width: 30%; 
+    margin-top: 80px;  
+    margin-bottom: 100px;
+
+}
+
+.section4Content h3{
+    font-size: 35px;
+    color: var(--colorDark);
+    font-weight: 400;
+    line-height: 45.5px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.section4Content h5{
+    font-size: 15px;
+    color: var(--colorDark);
+    font-weight: 400;
+    line-height: 16.5px;
+    margin-bottom: 20px;
+}
+
+.bankCode{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorPrimary);
+    border-radius: 6px;
+    margin-bottom: 20px;
+    color: var(--colorDark);
     
+}
+
+.bankCode img, span{
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+.bankCode img{
+    padding-right: 15px;
+}
+
+.section4Content p{
+    width: 96%;
+    color: #b2b2b2;
+    font-size: 12px;
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    line-height: 18px;
 }
